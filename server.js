@@ -3,8 +3,8 @@ const net = require('net');
 const { URL } = require('url');
 
 const PORT = process.env.PORT || 3000;
-const USER = 'user';
-const PASS = 'password';
+const USER = 'NOS';
+const PASS = 'Lolo666lolo';
 
 function checkAuth(req) {
   const auth = req.headers['proxy-authorization'];
