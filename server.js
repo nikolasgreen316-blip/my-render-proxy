@@ -4,7 +4,7 @@ const { URL } = require('url');
 
 const PORT = process.env.PORT || 3000;
 const USER = 'NOS';
-const PASS = 'Lolo666lolo';
+const PASS = 'Lolo766lolo';
 
 function checkAuth(req) {
   const auth = req.headers['proxy-authorization'];
